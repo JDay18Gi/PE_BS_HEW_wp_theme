@@ -1,0 +1,49 @@
+#brand-container {
+	padding: 0;
+	display: inline-block;
+	width: 300px;
+}
+
+#brand {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	display: inline-block;
+}
+
+#brand-container {
+	margin: 0;
+}
+
+#brand-container h4 {
+	display: inline-block;
+	margin: 2px;
+	font-size: 1.5em;
+	vertical-align: middle;
+	color: #323232;
+}
+
+.navbar {
+	border-radius: 0;
+	height: 6em;
+}
+
+.navbar .container-fluid,
+.navbar-header,
+.navbar-brand,
+.navbar .nav-pills,
+.navbar .nav-pills li,
+.navbar .nav-pills li a {
+	height: 100%;
+	vertical-align: middle;
+}
+
+.navbar .nav-pills li a i {
+	position: relative;
+	top: 0.325em;
+	font-size: 2.5em;
+	color: #323232;
+	vertical-align: middle;
+	padding: 0 0.25em 0 0.25em;
+
+}
