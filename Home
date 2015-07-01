@@ -18,15 +18,14 @@
 <body>
 
 <!--     navigation bar      -->
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-collapse">
 		<div id="nav-container" class="container-fluid">
-			<div class="container-fluid">
+			<div class="navbar-header">
 <!--      Brand Image & Brand Name      -->
-				<div class="navbar-header">
-					<a id="brand-container" class="navbar-brand" href="Home">
-						<img id="brand" alt="Brand Logo" src="images/CH_logo_black.svg">
-						<h4>Create Hard</h4>
-					</a>
+				<a id="brand-container" class="navbar-brand" href="Home">
+					<img id="brand" alt="Brand Logo" src="images/CH_logo_black.svg">
+					<h4>Create Hard</h4>
+				</a>
 				</div>
 <!--      Navigation Items      -->
 				<ul class="nav nav-pills navbar-right">
@@ -38,7 +37,13 @@
 
 					<li class="nav">
 						<a href="https://www.facebook.com/">
-							<i class="fa fa-camera-retro"></i>
+							<i class="fa fa-book"></i>
+						</a>
+					</li>
+
+					<li class="nav">
+						<a href="https://www.facebook.com/">
+							<i class="fa fa-github"></i>
 						</a>
 					</li>
 
@@ -47,27 +52,44 @@
 							<i class="fa fa-wordpress"></i>
 						</a>
 					</li>
-
-					<li class="nav">
-						<a href="https://www.facebook.com/">
-							<i class="fa fa-wordpress"></i>
-						</a>
-					</li>
-
-					<li class="nav">
+<!--      Navigation Final expand      -->
+					<li id="stay" class="nav">
 						<a href="https://www.facebook.com/">
 							<i class="glyphicon glyphicon-option-horizontal"></i>
 						</a>
 					</li>
-
 				</ul>
-
-			</div>
 		</div>
 	</nav>
+
+<!--     POSTS  SECTION    POSTS  SECTIONS      -->
+
+<div class="row col-xs-12 pin">
+	<div class="container-fluid">
+
+	<p class="icon"><span class="glyphicon glyphicon-pushpin"></span></p>
+
+		<h1>Why I became a Computer Programer?</h1>
+
+		<p>This is a long sentence designed to be a good space filler. This is a second sentence designed to add some variety to the look of the text. It actually provides no real content though. I type fast so this is not too much work to do another sentence. How about yet one more. Then there is the end. This is the last one before it repeats.</p>
+
+		<p>This is a long sentence designed to be a good space filler. This is a second sentence designed to add some variety to the look of the text. It actually provides no real content though. I type fast so this is not too much work to do another sentence. How about yet one more. Then there is the end. This is the last one before it repeats.</p>
+
+
+		<p class="icon"><img src="images/Orange_Wheatfields.jpg" alt="This is a responsive image of the ocean">
+		<span class="camera glyphicon glyphicon-camera"></span></p>
+
+	</div>
+</div>
+
+
 
 
 
 <script src="js/bootstrap.js"></script>
+<script src="js/jQuery.js"></script>
+<script src="js/hew.js"></script>
 
 </body>
+
+</html>
